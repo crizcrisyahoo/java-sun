@@ -38,6 +38,5 @@ class AddB{
             }
         }
         System.out.println();
-   
     }
 }
