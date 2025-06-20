@@ -15,7 +15,7 @@ public class Task15 {
         System.out.println(r.calculatePerimeter());
     }
 }
-
+ 
 interface Shape{
     double calculateArea();
     double calculatePerimeter();
