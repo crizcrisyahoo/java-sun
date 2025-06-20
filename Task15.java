@@ -19,7 +19,7 @@ public class Task15 {
 interface Shape{
     double calculateArea();
     double calculatePerimeter();
-    double radius();    
+    
 }
 
 abstract class AbstractShape implements Shape{
@@ -56,6 +56,8 @@ class Circle extends AbstractShape{
 }
 
 class Rectangle extends AbstractShape{
+    
+
     public Rectangle(String color, double length, double width){
         super(color, length, width);
     }
@@ -63,9 +65,7 @@ class Rectangle extends AbstractShape{
         return length * width;
     }
     public double calculatePerimeter(){
-        return 2 * Math.PI * radius();        
+        return 2 * (length * width);        
     }
-    public double radius(){
-        return 23.23;
-    }
+
 }
