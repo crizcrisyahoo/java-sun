@@ -19,7 +19,7 @@ class Vehicle{
                             "Year: " + make);
     }
 }
-
+ 
 class Car extends Vehicle{
     int numberOfDoors = 4;
 
@@ -28,4 +28,3 @@ class Car extends Vehicle{
         System.out.println("Number Of Doors: " + numberOfDoors);
     }
 }
-
